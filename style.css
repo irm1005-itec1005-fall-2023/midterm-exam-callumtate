@@ -62,14 +62,15 @@ body {
   font-weight: bold;
 }
 .button button {
-  background-color: #e6ccb2;
-  padding: .75rem;
-  margin: .75rem;
-  border-radius: 4rem;
-  align-items: center;
-  width: 50%;
+  
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7F5539;
+    border-radius: 6px;
 }
-.button a:hover {
+.button :hover {
   text-decoration: underline;
   color: DDB892;
 }
