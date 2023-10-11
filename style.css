@@ -34,4 +34,66 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #7F5539;
+  text-align: center;
+}
+.tile {
+  background-color: #b08968;
+  margin: 7rem;
+  border-radius: 7rem;
+  flex: 1;
+
+  display : flex;
+  flex-direction: column;;
+
+}
+
+.tile img{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.button a {
+  color: #7F5539;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.button button {
+  background-color: #e6ccb2;
+  padding: .75rem;
+  margin: .75rem;
+  border-radius: 4rem;
+  align-items: center;
+  width: 50%;
+}
+.button a:hover {
+  text-decoration: underline;
+  color: DDB892;
+}
+
+.tile h1{
+  color: wheat;
+  align-self: start;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.tile h2{
+  color: wheat;
+  font-size: 1.75rem;
+  font-style: italic;
+  align-self:flex-start;
+  margin: 1rem;
+}
+
+.tile p{
+  padding: .5rem;
+}
+
+footer{
+  padding: 1rem;
+
 }
